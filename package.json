@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "my-app",
-=======
-  "name": "calculatrice",
->>>>>>> 878ae85b28a00157d1e77973ec1f555b5606b53e
   "version": "0.1.0",
   "private": true,
   "dependencies": {
