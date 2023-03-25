@@ -53,11 +53,19 @@ function App() {
           "=",
           "C"
         ].map((label, index) => {
+          const isOperator = ["+", "-", "*", "/"].includes(label);
+          const buttonClass = `calculator-button-${index + 1} button ${
+            label === "="
+              ? "evaluation"
+              : isOperator
+              ? "operator"
+              : ""
+          }`;
           return (
             <Boutton
               key={label}
               value={label}
-              className={`calculator-button-${index + 1} button`}
+              className={buttonClass}
               handleClick={handleClick}
             />
           );

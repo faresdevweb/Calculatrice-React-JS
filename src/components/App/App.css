@@ -1,5 +1,6 @@
 .container{
     padding: 15px;
+    background-color: #000d;
 }
 
 .container-button {
@@ -7,6 +8,36 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 10px;
-    border: 2px solid red;
     margin-top: 15px;
   }
+
+  @media only screen and (min-width:768px) {
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+  }
+
+  @media only screen and (min-width: 1024px){
+    .container{
+        width: 60%;
+        margin: 0 auto;
+    }
+  }
+
+@media only screen and (min-width: 1440px){
+    .container{
+        width: 40%;
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (min-width: 1840px){
+    .container{
+        width: 20%;
+        margin: 0 auto;
+    }
+}
+
+  
