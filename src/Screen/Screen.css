@@ -1,0 +1,9 @@
+.screen-container{
+    border: 2px solid red;
+}
+
+.screen {
+    border: 2px solid green;
+    height: 100px;
+    font-size: 28px;
+}
